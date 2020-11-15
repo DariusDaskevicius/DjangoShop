@@ -9,7 +9,7 @@ class ProductDetailView(DetailView):
 
     CT_MODEL_MODEL_CLASS = {
         'iphone': Iphone,
-        'watches': Watch
+        'watch': Watch
     }
 
     def dispatch(self, request, *args, **kwargs):
